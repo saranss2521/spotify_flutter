@@ -43,6 +43,7 @@ flutter:
     - assets/artists/fka.png
     - assets/artists/hozier.png
     - assets/genres/indie.png
+    - assets/genres/pop.png
     - assets/genres/action.png
     - assets/genres/comedy.png
     - assets/genres/romance.png
