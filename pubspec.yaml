@@ -1,0 +1,81 @@
+name: flutter_basics
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # App Icon
+  flutter_launcher_icons: ^0.13.1
+
+  # Splash Screen
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/home/
+    - assets/icons/spotify_logo.png
+    - assets/icons/google.png
+    - assets/icons/facebook.png
+    - assets/icons/apple.png
+    - assets/icons/instagram.png
+    - assets/icons/linkedin.png
+    - assets/icons/github.png
+    - assets/home/profile.png
+    - assets/home/p1.png
+    - assets/home/p2.png
+    - assets/home/p3.png
+    - assets/artists/fka.png
+    - assets/artists/hozier.png
+    - assets/genres/indie.png
+    - assets/genres/action.png
+    - assets/genres/comedy.png
+    - assets/genres/romance.png
+    - assets/icons/app_icon.png
+
+    - assets/home/ok_computer.png
+    - assets/home/blur_best.png
+    - assets/home/govinda.png
+    - assets/home/playlist_viper.png
+    - assets/home/last_dinner.png
+    - assets/home/3body.png
+    - assets/home/the_cure.png
+    - assets/home/guts.png
+
+
+
+# ================================
+# APP ICON CONFIG
+# ================================
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/app_icon.png
+
+# ================================
+# SPLASH SCREEN CONFIG
+# ================================
+flutter_native_splash:
+  color: "#121212"
+  image: assets/icons/spotify_logo.png
+  android: true
+  ios: true
+
+  android_12:
+    color: "#121212"
+    image: assets/icons/spotify_logo.png
